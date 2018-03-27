@@ -1,6 +1,5 @@
 * {
-    font-family: 'Cabin', sans-serif;
-    
+    font-family: 'Cabin', sans-serif;  
 }
 
 .text-blue {
@@ -8,6 +7,11 @@
 }
 
 .coverPage {
-    /* background-image: url('public/assets/images/portada.jpg'); */
-    background: red;
+    background-image: url('assets/images/portada.jpg');
+    background-size: cover;
+    height: 82vh;
+}
+
+.btn-pink {
+    background-color: #e04;
 }
