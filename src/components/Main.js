@@ -3,7 +3,7 @@ import SimpleSlider from './SimpleSlider'
 
 const Main = () => (
     <div>
-        <SimpleSlider />
+      <SimpleSlider />
     </div>
 );
 
