@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Main = () => (
-    <h1>Hola</h1>
+    <div className="coverPage">
+    hola
+    </div>
 );
 
 export default Main;

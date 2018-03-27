@@ -6,3 +6,8 @@
 .text-blue {
     color: #059;
 }
+
+.coverPage {
+    /* background-image: url('public/assets/images/portada.jpg'); */
+    background: red;
+}
