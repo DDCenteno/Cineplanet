@@ -12,6 +12,18 @@
     height: 82vh;
 }
 
+.coverPage1 {
+    background-image: url('assets/images/portada1.jpg');
+    background-size: cover;
+    height: 82vh;
+}
+
+.coverPage2 {
+    background-image: url('assets/images/portada2.jpg');
+    background-size: cover;
+    height: 82vh;
+}
+
 .btn-pink {
     background-color: #e04;
 }
