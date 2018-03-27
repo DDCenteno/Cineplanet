@@ -109,7 +109,7 @@ Para la creación de nuestro prototipo hemos utilizado la ayuda de Marvel y Figm
 
 
 
-##Integrantes
+## Integrantes
 
 **Front-end Developers**
 
