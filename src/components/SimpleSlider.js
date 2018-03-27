@@ -19,7 +19,6 @@ export default class SimpleSlider extends Component {
                                 <h3 className="text-light m-0">Ready Player One</h3>
                                 <h5 className="text-light m-0">Encuentra y heredaras su fortuna</h5>
                                 <button type="button" className="btn btn-dark mt-4 pl-4 pr-4 btn-pink">Trailer <i className="fas fa-play-circle"></i></button>
-
                             </div>
                         </div>
                     </div>
@@ -28,7 +27,6 @@ export default class SimpleSlider extends Component {
                             <div className="col-12">
                                 <h3 className="text-light m-0">Yo, Tonya</h3>
                                 <button type="button" className="btn btn-dark mt-4 pl-4 pr-4 btn-pink">Trailer <i className="fas fa-play-circle"></i></button>
-
                             </div>
                         </div>
                     </div>
@@ -38,7 +36,6 @@ export default class SimpleSlider extends Component {
                                 <h3 className="text-light m-0">Titanes del Pacífico</h3>
                                 <h5 className="text-light m-0">La insurrección</h5>
                                 <button type="button" className="btn btn-dark mt-4 pl-4 pr-4 btn-pink">Trailer <i className="fas fa-play-circle"></i></button>
-
                             </div>
                         </div>
                     </div>
