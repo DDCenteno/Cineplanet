@@ -106,15 +106,27 @@ const Seats = ({screenIcon}) => {
           </div>
         </div>
       </div>
-      <div className="col-12">
+      <div className="col-12 card-info d-flex align-items-center">
         <div>
-          <div className="text-uppercase">disponible</div>
-          <div className="text-uppercase">ocupado</div>
+          <div className="text-uppercase">
+            {/* <img alt="Seat"/> */}
+            <span>disponible</span>
+          </div>
+          <div className="text-uppercase">
+            {/* <img  alt="Ocuppied Seat"/> */}
+            <span>ocupado</span></div>
         </div>
         <div>
-          <div className="text-uppercase">seleccionado</div>
-          <div className="text-uppercase">silla de ruedas</div>
+          <div className="text-uppercase">
+            {/* <img  alt="Selected Seat"/> */}
+            <span>seleccionado</span></div>
+          <div className="text-uppercase">
+            {/* <img  alt="wheelchair"/> */}
+            <span>silla de ruedas</span></div>
         </div>
+      </div>
+      <div className="col-12 continue-button-container">
+        <button className="continue-button text-white">CONTINUAR</button>
       </div>
     </div>
   )

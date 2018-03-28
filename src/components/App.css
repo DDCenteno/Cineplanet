@@ -40,6 +40,11 @@ ellipse {
   stroke-width: 8px;
 }
 
+.card-info {
+  background-color: #d0d3d4;
+  justify-content: space-evenly;
+}
+
 .info-movie {
   padding-top: 1em;
 }
@@ -115,6 +120,10 @@ ellipse {
   position: relative;
   left: 7.5em;
   bottom: 2.45em;  
+}
+
+.continue-button-container {
+  padding: 0;
 }
 
 .continue-button {
