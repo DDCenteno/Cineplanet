@@ -84,7 +84,8 @@
 .form-group .tickets-price-input {
   font-size: 1.3em !important;
   border: none;
-  border-bottom: 2px solid gray;
+  color: #7c7c7c;
+  border-bottom: 2px solid #7c7c7c;
 }
 
 .form-group .ticket-small {
@@ -104,8 +105,26 @@
   border-style: none;
 }
 
+.see-you-container {
+  color: #7c7c7c;
+}
+
 .form-group .exchange-codes-input {
   font-size: 0.9em !important;
   border: none;
   border-bottom: 2px solid gray;
+}
+
+.exchange-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.exchange-button {
+  border-radius: 20px;
+  border-style: none;
+  padding: 0.7em 2.7em;
+  background-color: #B2AFAF;
 }

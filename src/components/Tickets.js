@@ -37,7 +37,7 @@ const Tickets = ({currentTicketPrice}) => {
       </div>
       {/* Canjea tus codigos */ }
       <div className="col-12">
-        <div className="d-flex justify-content-center align-items-center flex-column">
+        <div className="d-flex justify-content-center align-items-center flex-column see-you-container">
           <h6 className="text-center font-weight-bold">Proximamente :)</h6>
           <p className="text-center">Entradas corporativas y descuentos telefónicos</p>
         </div>
@@ -46,6 +46,9 @@ const Tickets = ({currentTicketPrice}) => {
             <input type="email" className="form-control text-blue font-weight-bold exchange-codes-input text-center" id="exampleInputEmail1" value={''} aria-describedby="emailHelp" placeholder="Ingresa tu código" />
           </div>
         </form>
+        <div className="exchange-button-container">
+          <button className="exchange-button text-center text-white">CANJEAR</button>
+        </div>
       </div>
       <button className="continue-button text-white">CONTINUAR</button>
     </div>
