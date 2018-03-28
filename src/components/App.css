@@ -18,6 +18,28 @@
   font-size: 1em;
 }
 
+.screen-icon {
+  width: 40%;
+}
+
+.seats-container {
+  background-color: #adb6a0;
+}
+
+.seats-hr {
+  border: 2px solid white;
+}
+
+svg {
+  width: 15%;
+}
+
+ellipse {
+  fill: transparent;
+  stroke: #347;
+  stroke-width: 8px;
+}
+
 .info-movie {
   padding-top: 1em;
 }
