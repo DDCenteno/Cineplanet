@@ -1,20 +1,21 @@
 import { connect } from 'react-redux';
 import axios from 'axios';
-import { navigationTo , getDataCinemas} from '../actions/actions';
+import { navigationTo , getDataCinemas } from '../actions/actions';
 import App from '../components/App';
 
 const mapStateToProps = (state) => {
-  const { actualPage, data } = state.AppReducer;
+  const { actualPage, data, movies } = state.AppReducer;
   return {
     actualPage: actualPage,
-    data: data
+    data: data,
+    movies: movies
   }
 };
 
 
 const mapDispatchToProps = (dispatch) => ({
-  navigateTo: (page) => {
-    dispatch(navigationTo(page))
+  navigateTo: (page, id) => {
+    dispatch(navigationTo(page, id))
   },
   getData: (payload) => {
     axios.get('https://rocky-everglades-64772.herokuapp.com/api/product')   

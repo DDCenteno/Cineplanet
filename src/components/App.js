@@ -9,10 +9,11 @@ class App extends Component {
   }
 
   render(){
+    const { actualPage, data, movies, navigateTo } = this.props;
     return(
     <div className="container-fluid">
-      <MainNav actualPage={ this.props.actualPage } navigateTo={ this.props.navigateTo } data={this.props.data}/>
-      <Footer navigateTo={this.props.navigateTo}/>
+      <MainNav actualPage={ actualPage } navigateTo={ navigateTo } data={data} movies={movies} />
+      <Footer navigateTo={navigateTo}/>
     </div>)
   }
 };

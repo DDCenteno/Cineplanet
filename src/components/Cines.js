@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderCines from './HeaderCines';
 
-const CinemaDiv = ({ cinema }) => {
+const CinemaDiv = ({ id, cinema, navigateTo }) => {
   return(
       <div className="d-flex justify-content-around align-items-center movies-list-container m-3">
         <div className="text-center d-flex align-items-center">
@@ -11,18 +11,18 @@ const CinemaDiv = ({ cinema }) => {
             <span>{cinema.location}</span>
           </div>
         </div>
-        <span className=""><i className="fas fa-chevron-right"></i></span>
+        <span onClick={() => navigateTo('cineMovie', id)} className=""><i className="fas fa-chevron-right"></i></span>
       </div>
   )
 } 
 
-const Cines = ({data}) => {
+const Cines = ({navigateTo, data}) => {
   const cines = data.products.map( cinema => (
-    <CinemaDiv key={cinema._id} cinema={cinema}/>
+    <CinemaDiv id={cinema._id} key={cinema._id} cinema={cinema} navigateTo={navigateTo}/>
   ))
   return (
     <div className="row mt-4">
-      <HeaderCines/>
+      <HeaderCines navigateTo={navigateTo}/>
       <div className="col-12 mt-4">
         <div className="col-6 d-inline-block text-center">
           <span><i className="fas fa-map-marker-alt"></i></span>

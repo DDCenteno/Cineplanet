@@ -1,10 +1,11 @@
 import React from 'react';
 import NavCineDetail from './NavCineDetail';
 
-const ScheduleCineInfo = () => (
+const ScheduleCineInfo = ({navigateTo}) => {
+    return(
     <div >
         <img src="assets/images/movie.PNG" style={{ width: '100%' }} alt="Movie" />
-        <NavCineDetail/>
+        <NavCineDetail navigateTo={navigateTo}/>
         <div className="d-flex justify-content-center align-items-center">
             <div className="col-6">
                 <div className="d-flex flex-column align-items-center border">
@@ -39,7 +40,7 @@ const ScheduleCineInfo = () => (
             </div>
             </div>
     </div>
-    
-);
+    )
+};
 
 export default ScheduleCineInfo;

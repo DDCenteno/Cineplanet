@@ -3,11 +3,10 @@ import HeaderCines from './HeaderCines';
 import ScheduleCineInfo from './ScheduleCineInfo';
 import Footer from './Footer';
 
-const ScheduleCine = () => (
-    <div >
+const ScheduleCine = ({navigateTo}) => (
+    <div>
         <HeaderCines />
-        <ScheduleCineInfo/>
-        <Footer />
+        <ScheduleCineInfo navigateTo={navigateTo}/>
     </div>
     
 );

@@ -1,14 +1,13 @@
 import React from 'react';
 
-const movies = ['../assets/images/portada.jpg', 'assets/images/portada1.jpg', 'assets/images/portada2.jpg'];
 
-const ContentCines = () => (
+const ContentCines = ({ dataMoviesCinema, navigateTo, id }) => (
     <div className="col-12">
     <div className="row justify-content-center align-items-center" >
-        {movies.map( m => 
-        <figure className="col-6" key={m}>
-            <img className="" src={m} alt="Movie" style={{height: '200px', width: '150px'}}/>
-            </figure>
+        {dataMoviesCinema.map( movie => 
+        <figure className="col-6" key={movie._id} onClick={() => navigateTo('movies', id, movie._id)}>
+            <img className="" src={movie.imgver} alt={movie.name} style={{height: '200px', width: '150px'}}/>
+        </figure>
         )}
         </div>
       </div>
