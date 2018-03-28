@@ -6,6 +6,7 @@ import Footer from './Footer';
 //  import Cines from './Cines';
 //  import Confirm from './Confirm';
 import Seats from './Seats';
+import Runway from './Runway';
 // import Tickets from './Tickets';
 import './App.css';
 // Comento porque esta version de App es funcional
@@ -26,6 +27,7 @@ const App = () => (
      <Seats screenIcon="teatro-de-pantalla-de-cine.svg" />  
      {/* Entradas */}
      {/* <Tickets currentTicketPrice="14.00"/> */}
+     <Runway />
    </div>
  );
 
