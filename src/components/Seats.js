@@ -10,7 +10,7 @@ const Seats = () => {
         title="Butacas"
       />
       <MovieDetails 
-        movieTitle="READY PLAYER ONE"
+        movieTitle="READY, PLAYER ONE"
         time="5:00"
         price="0.00"
         seatsNumber="00"

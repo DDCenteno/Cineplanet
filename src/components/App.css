@@ -13,3 +13,28 @@
   border-radius: 15px;
   padding: 2em;
 }
+
+.info-movie {
+  padding-top: 1em;
+}
+
+.some-info-container {
+  margin-left: 2em;
+}
+
+.time-container {
+  margin-bottom: 0.3em;
+}
+
+.time {
+  margin-left: 0.3em;
+}
+
+.price-button {
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 5px 30px;
+}
