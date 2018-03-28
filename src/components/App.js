@@ -5,7 +5,7 @@ import './App.css';
 
 const App = ({ actualPage, navigateTo }) => (
   <div className="container-fluid">
-    <MainNav actualPage={ actualPage } navigateTo={navigateTo}/>
+    <MainNav actualPage={ actualPage } navigateTo={ navigateTo }/>
     <Footer navigateTo={navigateTo}/>
   </div>
 );

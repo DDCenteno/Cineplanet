@@ -7,11 +7,11 @@ import Confirm from './Confirm';
 const MainNav = ({actualPage, navigateTo}) => {
     switch (actualPage) {
         case 'home':
-            return <Main />;
+            return <Main navigateTo={navigateTo}/>;
         case 'signup':
-            return <SignUp />;
+            return <SignUp navigateTo={navigateTo}/>;
         case 'cinemas':
-            return <Cines />;
+            return <Cines navigateTo={navigateTo}/>;
         case 'confirm':
             return <Confirm />;
         default:
