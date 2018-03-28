@@ -8,6 +8,7 @@ import CineMovie from './CineMovie';
 import DetailsCine from './DetailsCine';
 import Movies from './Movies';
 import ScheduleCine from './ScheduleCine';
+import Dowloand from './Dowloand';
 import './App.css';
 
 const App = () => (
@@ -28,6 +29,8 @@ const App = () => (
     <Movies/>
     {/*Page 7*/}
     <ScheduleCine/>
+    {/*Page 8*/}
+    <Dowloand/>
   </div>
 );
 

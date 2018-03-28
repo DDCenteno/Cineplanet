@@ -61,6 +61,10 @@
     border-bottom: 2px solid #dee2e6!important;
 }
 
+.h-75 {
+    height: 90vh !important;
+}
+
 /* .back-info {
     background-image: url('assets/images/TarjetaClasicaHome.png');
     background-size: cover;
