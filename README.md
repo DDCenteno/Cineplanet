@@ -105,11 +105,24 @@ Clíck [aquí](https://docs.google.com/document/d/1ob0OFqFfcfIkt-Jhhhd2quLbufDMt
 
 Para la creación de nuestro prototipo hemos utilizado la ayuda de Marvel y Figma:
 
+Previsualización de vistas:
+![previsualización](src/assets/docs/viewsGeneral.png)
+
 - Para ver el prototipo de manera funcional, haz [clic aquí](https://marvelapp.com/5054de5/screen/40356304)
 
 ### User Testing: Feedbacks
 
-
+- Melyna:  
+    * Le gusta que el filtro general sea por cines.
+- Gabriela:
+    * Secciones importantes que el usuario debe leer, ponerlos en un color diferente y/o letras más grandes.
+    * Iconos usados sean lo mas sencillo posiblem para que el usuario no se confunda.
+    * Tener cuidado con los contrastes de colores para que las secciones de leer no sean difíciles para el usuario.
+    * Prefiere filtrado por cines.
+- Gonzalo: 
+    *  Desaria que se logre una vista mas con filtrado de cines.
+    * No le parecía que al ir a otra vista el icono que debería estar estatico se moviera.
+    * Que se marquen de color al estar en la sección de cine y incluso estando dentro del flujo del cine/compra.
 
 ## Integrantes
 
