@@ -19,9 +19,9 @@ const Tickets = ({currentTicketPrice}) => {
       />
       <div className="col-12">
         <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item" aria-current="page">Entradas</li>
-            <li class="breadcrumb-item active">Canjea tus códigos</li>
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item active" aria-current="page">Entradas</li>
+            <li className="breadcrumb-item"><a href="/header">Canjea códigos</a></li>
           </ol>
         </nav>
       </div>
@@ -32,6 +32,18 @@ const Tickets = ({currentTicketPrice}) => {
             <label className="ticket-label" htmlFor="exampleInputEmail1">GENERAL SOL</label>
             <input type="email" className="form-control text-blue font-weight-bold tickets-price-input" id="exampleInputEmail1" value={'s/. ' + currentTicketPrice} aria-describedby="emailHelp" placeholder="" />
             <small id="emailHelp" className="form-text font-weight-bold text-danger ticket-small">Precio más bajo</small>
+          </div>
+        </form>
+      </div>
+      {/* Canjea tus codigos */ }
+      <div className="col-12">
+        <div className="d-flex justify-content-center align-items-center flex-column">
+          <h6 className="text-center font-weight-bold">Proximamente :)</h6>
+          <p className="text-center">Entradas corporativas y descuentos telefónicos</p>
+        </div>
+        <form>
+          <div className="form-group">         
+            <input type="email" className="form-control text-blue font-weight-bold exchange-codes-input text-center" id="exampleInputEmail1" value={''} aria-describedby="emailHelp" placeholder="Ingresa tu código" />
           </div>
         </form>
       </div>

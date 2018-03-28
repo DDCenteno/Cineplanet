@@ -81,3 +81,9 @@
   background-color: #347;
   border-style: none;
 }
+
+.form-group .exchange-codes-input {
+  font-size: 0.9em !important;
+  border: none;
+  border-bottom: 2px solid gray;
+}
