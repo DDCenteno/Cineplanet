@@ -9,7 +9,7 @@ ___
    >> "The bible app" o aplicaciónes similares.
     Elige una app del App Store o Play Store que tenga muchas descargas pero que su experiencia no sea tan buen, Testéala, re-diseñala e impleménta tu versión mejorada.
 
-Según el reto propuesto, se decidió re-diseñar la app de Cineplanet por las bajas califacaciones de los usuarios. 
+Según el reto propuesto, se decidió re-diseñar la app de Cineplanet por las bajas calificaciones de los usuarios. 
 
 Para este reto nos hemos divido las tareas de las diferentes especializaciones en [Trello](https://trello.com/b/IfyHLGVR) :
 
