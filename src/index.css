@@ -3,7 +3,11 @@
 }
 
 .text-blue {
-    color: #059;
+    color: #347;
+}
+
+.back-blue {
+    background-color: #347;
 }
 
 .coverPage {
@@ -26,4 +30,25 @@
 
 .btn-pink {
     background-color: #e04;
+}
+
+.sign-up-info {
+    bottom: 0.5rem;
+    right: 0.9rem;
+}
+
+.form-control, .socioPlanet {
+    font-size: 0.8rem !important;
+}
+
+.border-in {
+    border-radius: 1.5rem;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #dee2e6!important;
 }
