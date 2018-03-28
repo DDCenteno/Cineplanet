@@ -51,6 +51,28 @@
   width: 10%;
 }
 
+.options {
+  background-color: white;
+  padding: 0;
+}
+
+.options li {
+  padding: 1em 0.5em;
+}
+
+.options li a {
+  color: #6B6868;
+}
+
+.breadcrumb-item.active {
+  color: #dc3545;
+  border-bottom: 3px solid #dc3545;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: none;
+}
+
 .form-group {
   margin-top: 2rem;
 }

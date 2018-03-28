@@ -19,9 +19,9 @@ const Tickets = ({currentTicketPrice}) => {
       />
       <div className="col-12">
         <nav aria-label="breadcrumb">
-          <ol className="breadcrumb">
-            <li className="breadcrumb-item active" aria-current="page">Entradas</li>
-            <li className="breadcrumb-item"><a href="/header">Canjea códigos</a></li>
+          <ol className="breadcrumb options d-flex justify-content-around">
+            <li className="breadcrumb-item active font-weight-bold" aria-current="page">Entradas</li>
+            <li className="breadcrumb-item"><a href="/header">Canjea tus códigos</a></li>
           </ol>
         </nav>
       </div>

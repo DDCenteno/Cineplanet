@@ -21,8 +21,10 @@ const App = () => (
     <Cines />
      {/* Final Page */}
     <Confirm />
+
     {/* Butacas */}
     {/* <Seats /> */}
+    
     {/* Entradas */}
     <Tickets currentTicketPrice="14.00"/>
   </div>
