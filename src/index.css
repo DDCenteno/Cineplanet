@@ -10,6 +10,10 @@
     background-color: #347;
 }
 
+.border-blue {
+    border: 1px solid #347;
+}
+
 .coverPage {
     background-image: url('assets/images/portada.jpg');
     background-size: cover;
@@ -45,6 +49,10 @@
     border-radius: 1.5rem;
 }
 
+.border-in-middle {
+    border-radius: 0.75rem;
+}
+
 .underline {
     text-decoration-line: underline;
 }
@@ -52,3 +60,8 @@
 .border-bottom {
     border-bottom: 2px solid #dee2e6!important;
 }
+
+/* .back-info {
+    background-image: url('assets/images/TarjetaClasicaHome.png');
+    background-size: cover;
+} */

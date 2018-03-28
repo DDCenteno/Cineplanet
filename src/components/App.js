@@ -4,6 +4,10 @@ import Main from './Main';
 import Footer from './Footer';
 import SignUp from './SignUp'
 import Cines from './Cines';
+import CineMovie from './CineMovie';
+import DetailsCine from './DetailsCine';
+import Movies from './Movies';
+import ScheduleCine from './ScheduleCine';
 import './App.css';
 
 const App = () => (
@@ -16,6 +20,14 @@ const App = () => (
     <SignUp />
     {/*Page 3*/}
     <Cines />
+    {/*Page 4*/}
+    <CineMovie />
+    {/*Page 5*/}
+    <DetailsCine />
+    {/*Page 6*/}
+    <Movies/>
+    {/*Page 7*/}
+    <ScheduleCine/>
   </div>
 );
 

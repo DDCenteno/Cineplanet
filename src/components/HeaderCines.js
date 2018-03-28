@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HeaderCines = () => (
-    <div className="col-12">
+    <div className="col-12 border">
         <div className="col-6 d-inline-block">
           <span><i className="fas fa-chevron-left text-blue"></i></span>
           <h4 className="ml-2 d-inline-block text-blue font-weight-bold">Cines</h4>
