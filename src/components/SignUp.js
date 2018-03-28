@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SignUp = () => (
+const SignUp = ({ navigateTo }) => (
   <div className="row">
     <div className="col-12">
-      <h4 className="text-blue font-weight-bold m-2 "><i className="fas fa-chevron-left"></i> Inicia Sesión</h4>
+      <h4 onClick={() => navigateTo('home')} className="text-blue font-weight-bold m-2 "><i className="fas fa-chevron-left"></i> Inicia Sesión</h4>
       <div className="col-12">
         <div className="row justify-content-center">
           <i className="far fa-user-circle fa-7x text-blue m-4"></i>
