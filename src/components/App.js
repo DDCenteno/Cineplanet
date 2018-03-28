@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { Component }  from 'react';
 import Footer from './Footer';
 import MainNav from './MainNav'
 import './App.css';
 
-const App = ({ actualPage, navigateTo }) => (
-  <div className="container-fluid">
-    <MainNav actualPage={ actualPage } navigateTo={ navigateTo }/>
-    <Footer navigateTo={navigateTo}/>
-  </div>
-);
+class App extends Component {
+  componentWillMount() {
+    this.props.getData()
+  }
+
+  render(){
+    return(
+    <div className="container-fluid">
+      <MainNav actualPage={ this.props.actualPage } navigateTo={ this.props.navigateTo } data={this.props.data}/>
+      <Footer navigateTo={this.props.navigateTo}/>
+    </div>)
+  }
+};
 
 export default App;
