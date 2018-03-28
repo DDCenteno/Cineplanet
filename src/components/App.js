@@ -4,6 +4,7 @@ import Main from './Main';
 import Footer from './Footer';
 import SignUp from './SignUp'
 import Cines from './Cines';
+import Confirm from './Confirm';
 import './App.css';
 
 const App = () => (
@@ -16,6 +17,8 @@ const App = () => (
     <SignUp />
     {/*Page 3*/}
     <Cines />
+     {/* Final Page */}
+    <Confirm />
   </div>
 );
 

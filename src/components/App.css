@@ -2,3 +2,14 @@
   margin: 0 1em 5em;
   border: 1px solid black;
 }
+
+.glasses {
+  width: 70%;
+}
+
+.final-message {
+  margin-bottom: 2rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 2em;
+}
