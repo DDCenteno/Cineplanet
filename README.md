@@ -1,4 +1,6 @@
 # Cineplanet
+
+![image](https://user-images.githubusercontent.com/30356026/38052543-3a941450-3297-11e8-807f-7ffd12ceb8dd.png)
 ___
 ## Desarrollado para:
 [Laboratoria](http://www.laboratoria.la/)
@@ -7,7 +9,7 @@ ___
    >> "The bible app" o aplicaciónes similares.
     Elige una app del App Store o Play Store que tenga muchas descargas pero que su experiencia no sea tan buen, Testéala, re-diseñala e impleménta tu versión mejorada.
 
-Según el reto propuesto, se decidió re-diseñar la app de Cineplanet por las bajas califacaciones de los usuarios. 
+Según el reto propuesto, se decidió re-diseñar la app de Cineplanet por las bajas calificaciones de los usuarios. 
 
 Para este reto nos hemos divido las tareas de las diferentes especializaciones en [Trello](https://trello.com/b/IfyHLGVR) :
 
@@ -103,11 +105,31 @@ Clíck [aquí](https://docs.google.com/document/d/1ob0OFqFfcfIkt-Jhhhd2quLbufDMt
 
 Para la creación de nuestro prototipo hemos utilizado la ayuda de Marvel y Figma:
 
+Previsualización de vistas:
+![previsualización](src/assets/docs/viewsGeneral.png)
+
 - Para ver el prototipo de manera funcional, haz [clic aquí](https://marvelapp.com/5054de5/screen/40356304)
 
 ### User Testing: Feedbacks
 
+- Melyna:  
+    * Le gusta que el filtro general sea por cines.
+- Gabriela:
+    * Secciones importantes que el usuario debe leer, ponerlos en un color diferente y/o letras más grandes.
+    * Iconos usados sean lo mas sencillo posiblem para que el usuario no se confunda.
+    * Tener cuidado con los contrastes de colores para que las secciones de leer no sean difíciles para el usuario.
+    * Prefiere filtrado por cines.
+- Gonzalo: 
+    *  Desaria que se logre una vista mas con filtrado de cines.
+    * No le parecía que al ir a otra vista el icono que debería estar estatico se moviera.
+    * Que se marquen de color al estar en la sección de cine e incluso estando dentro del flujo del cine/compra.
 
+### Conclusiónes:
+
+De acuerdo al proyecto realizado, hemos sacado las siguientes conclusiónes:
+
+- Los usuarios siempre van a desear un flujo sencillo y con menos pasos para poder disfrutar de las aplicaciónes en general; en resumen 'Mas es menos'
+- Nos dimos cuenta por conclusión nuestra, que aunque el diseño de la interfaz sea estético, siempre captará la atención el flujo sencillo.
 
 ## Integrantes
 
