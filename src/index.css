@@ -15,19 +15,19 @@
 }
 
 .coverPage {
-    background-image: url('assets/images/portada.jpg');
+    background-image: url('http://sm.ign.com/ign_latam/movie/r/ready-play/ready-player-one_5grr.jpg');
     background-size: cover;
     height: 82vh;
 }
 
 .coverPage1 {
-    background-image: url('assets/images/portada1.jpg');
+    background-image: url('http://www.fotogramas.es/var/ezflow_site/storage/images/peliculas/yo-tonya/137781741-5-esl-ES/Yo-Tonya.jpg');
     background-size: cover;
     height: 82vh;
 }
 
 .coverPage2 {
-    background-image: url('assets/images/portada2.jpg');
+    background-image: url('https://www.kino.dk/sites/default/files/styles/k_poster_big/public/movie-posters/pacific_plakat_675x1000px_0118_0.png?itok=HXKpDu--');
     background-size: cover;
     height: 82vh;
 }
