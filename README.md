@@ -21,7 +21,11 @@ Investigación de:
 - Data de cineplanet (API)
 - SVG
 - Zoom
+
+__Herramientas Usadas:__
+
 - Redux y react
+- HTML5
 - CCS3
 
 __UX Design__
@@ -31,10 +35,13 @@ __UX Design__
 - Encuesta online y entrevistas
 - Affinity Map
 - User Persona
-- Contento prototype
-- Mock-Up _(baja-alta fidelidad)_
+- Content prototype
 - Testing y feedbacks
 
+__Herramientas Usadas:__
+- Mock-Up _(baja-alta fidelidad)_:
+  - Figma
+  - Marvel
   
 ### Fases del Proceso:
 
@@ -72,11 +79,11 @@ Mediante este metodo, se agruparon los comentarios en 3 grupos:
 
 ### Selección del problema
 
-Debido que se notó una gran disconformidad con la ultima actualización, la mayoría concidía que había demasiados flujos y los confundía
+Debido que se notó una gran disconformidad con la ultima actualización, la mayoría concidía en el exceso de flujos y la confusión que les daba al usar la app
 
 ### Definición del problema
 
-Las mayoría de los usuarios coincidia que el flujo de las opciones se volvía repetitiva como la 'ubicación' y 'cines', y 'películas'.
+Las mayoría de los usuarios coincidia que el flujo de las opciones se volvía repetitiva en: 'ubicación' y 'cines', y 'películas'.
 
 ### Ideación
 
@@ -108,27 +115,30 @@ Para la creación de nuestro prototipo hemos utilizado la ayuda de Marvel y Figm
 Previsualización de vistas:
 ![previsualización](src/assets/docs/viewsGeneral.png)
 
-- Para ver el prototipo de manera funcional, haz [clic aquí](https://marvelapp.com/5054de5/screen/40356304)
+- Para ver el prototipo de manera funcional en __Marvel__, haz [clic aquí](https://marvelapp.com/5054de5/screen/40356304)
 
 ### User Testing: Feedbacks
 
 - Melyna:  
     * Le gusta que el filtro general sea por cines.
+    
 - Gabriela:
     * Secciones importantes que el usuario debe leer, ponerlos en un color diferente y/o letras más grandes.
-    * Iconos usados sean lo mas sencillo posiblem para que el usuario no se confunda.
+    * Que los iconos usados sean lo mas sencillo posible para que el usuario evite alguna confusión.
     * Tener cuidado con los contrastes de colores para que las secciones de leer no sean difíciles para el usuario.
-    * Prefiere filtrado por cines.
+    * Prefiere que filtrado de cines sea incluido.
+    
 - Gonzalo: 
-    *  Desaria que se logre una vista mas con filtrado de cines.
-    * No le parecía que al ir a otra vista el icono que debería estar estatico se moviera.
+    * Deseó que haya un filtrado de 'peliculas'.
+    * No le pareció que al ir a otra vista, el icono estatico, se mueva.
+    * Ingresar datos reales para que el prototipo tenga una sensación más realista.
     * Que se marquen de color al estar en la sección de cine e incluso estando dentro del flujo del cine/compra.
 
 ### Conclusiónes:
 
 De acuerdo al proyecto realizado, hemos sacado las siguientes conclusiónes:
 
-- Los usuarios siempre van a desear un flujo sencillo y con menos pasos para poder disfrutar de las aplicaciónes en general; en resumen 'Mas es menos'
+- Los usuarios siempre van a desear un flujo sencillo y con menos pasos para poder disfrutar de las aplicaciónes en general; En resumen 'Mas es menos'
 - Nos dimos cuenta por conclusión nuestra, que aunque el diseño de la interfaz sea estético, siempre captará la atención el flujo sencillo.
 
 ## Integrantes
