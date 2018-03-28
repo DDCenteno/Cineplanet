@@ -20,7 +20,7 @@ const Cines = () => {
         <div className="d-flex justify-content-around align-items-center movies-list-container">
         <div className="text-center d-flex align-items-center">
           <span><i className="fas fa-heart"></i></span>
-          <div className="d-inline-block">
+          <div className="d-inline-block ml-3 mr-3">
             <h6 className="text-blue font-weight-bold">Cineplanet Salaverry</h6>
             <span>Av. San Felipe Salaverry s/n</span>
           </div>
