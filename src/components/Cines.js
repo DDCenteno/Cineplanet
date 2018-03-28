@@ -1,6 +1,5 @@
 import React from 'react';
 import HeaderCines from './HeaderCines';
-import Footer from './Footer';
 
 const Cines = () => {
   return (
@@ -28,7 +27,6 @@ const Cines = () => {
         <span className=""><i className="fas fa-chevron-right"></i></span>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
