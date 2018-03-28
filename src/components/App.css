@@ -34,6 +34,10 @@ svg {
   width: 15%;
 }
 
+.seat-selected {
+  fill: #347;
+}
+
 ellipse {
   fill: transparent;
   stroke: #347;

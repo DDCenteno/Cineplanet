@@ -118,10 +118,11 @@ const Seats = ({screenIcon}) => {
         </div>
         <div>
           <div className="text-uppercase">
-            {/* <img  alt="Selected Seat"/> */}
+            <SeatImage />
             <span>seleccionado</span></div>
           <div className="text-uppercase">
-            {/* <img  alt="wheelchair"/> */}
+            <i class="fas fa-wheelchair"></i>
+            {' '}
             <span>silla de ruedas</span></div>
         </div>
       </div>
