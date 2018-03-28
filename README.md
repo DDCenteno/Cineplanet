@@ -1,4 +1,6 @@
 # Cineplanet
+
+![image](https://user-images.githubusercontent.com/30356026/38052543-3a941450-3297-11e8-807f-7ffd12ceb8dd.png)
 ___
 ## Desarrollado para:
 [Laboratoria](http://www.laboratoria.la/)
