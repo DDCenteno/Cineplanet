@@ -122,7 +122,14 @@ Previsualización de vistas:
 - Gonzalo: 
     *  Desaria que se logre una vista mas con filtrado de cines.
     * No le parecía que al ir a otra vista el icono que debería estar estatico se moviera.
-    * Que se marquen de color al estar en la sección de cine y incluso estando dentro del flujo del cine/compra.
+    * Que se marquen de color al estar en la sección de cine e incluso estando dentro del flujo del cine/compra.
+
+### Concluciónes:
+
+De acuerdo al proyecto realizado, hemos sacado las siguientes conclusiónes:
+
+- Los usuarios siempre van a desear un flujo sencillo y con menos pasos para poder disfrutar de las aplicaciónes en general; en resumen 'Mas es menos'
+- Nos dimos cuenta por conclusión nuestra, que aunque el diseño de la interfaz sea estético, siempre captará la atención el flujo sencillo.
 
 ## Integrantes
 
