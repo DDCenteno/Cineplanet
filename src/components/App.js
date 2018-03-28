@@ -10,8 +10,9 @@ const App = () => (
   <div className="container-fluid">
     <Header />
     <Main />
-    <Cines />
     <Footer />
+    <Cines />
+
   </div>
 );
 
