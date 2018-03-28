@@ -5,7 +5,10 @@ import Footer from './Footer';
 const Cines = () => {
   return (
     <div className="row mt-4">
-      <HeaderCines/>
+      <HeaderCines 
+        firstIcon="fas fa-chevron-left"
+        title="Cines"
+      />
       <div className="col-12 mt-4">
         <div className="col-6 d-inline-block text-center">
           <span><i className="fas fa-map-marker-alt"></i></span>
