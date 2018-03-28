@@ -1,24 +1,12 @@
 import React from 'react';
-import Header from './Header';
-import Main from './Main';
 import Footer from './Footer';
-import SignUp from './SignUp'
-import Cines from './Cines';
-import Confirm from './Confirm';
+import MainNav from './MainNav'
 import './App.css';
 
-const App = () => (
+const App = ({ actualPage, navigateTo }) => (
   <div className="container-fluid">
-    {/*Page 1*/}
-    <Header />
-    <Main />
+    <MainNav actualPage={ actualPage } navigateTo={navigateTo}/>
     <Footer />
-    {/*Page 2*/}
-    <SignUp />
-    {/*Page 3*/}
-    <Cines />
-     {/* Final Page */}
-    <Confirm />
   </div>
 );
 
