@@ -124,7 +124,7 @@ Previsualización de vistas:
     * No le parecía que al ir a otra vista el icono que debería estar estatico se moviera.
     * Que se marquen de color al estar en la sección de cine e incluso estando dentro del flujo del cine/compra.
 
-### Concluciónes:
+### Conclusiónes:
 
 De acuerdo al proyecto realizado, hemos sacado las siguientes conclusiónes:
 
