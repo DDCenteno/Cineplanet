@@ -5,7 +5,8 @@ import Footer from './Footer';
 import SignUp from './SignUp'
 import Cines from './Cines';
 import Confirm from './Confirm';
-import Seats from './Seats';
+// import Seats from './Seats';
+import Tickets from './Tickets';
 import './App.css';
 
 const App = () => (
@@ -21,7 +22,9 @@ const App = () => (
      {/* Final Page */}
     <Confirm />
     {/* Butacas */}
-    <Seats />
+    {/* <Seats /> */}
+    {/* Entradas */}
+    <Tickets currentTicketPrice="14.00"/>
   </div>
 );
 
